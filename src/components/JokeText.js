@@ -1,22 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
-import axios from "axios"
 
 function JokeText() {
 
     const [joke, setJoke] = useState("");
 
-    //Axios
+    //API FETCH
     const getJoke = () => {
-        axios.get("https://icanhazdadjoke.com/", {
-                headers: {
-                    Accept: "application/json",
-                },
-            })
-            .then((res) => {
-                setJoke(res.data.joke);
-            })
-    }
+        fetch('https://icanhazdadjoke.com/', {
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+            .then(res => res.json())
+            .then(res => setJoke(res.joke));
+    };
     return (
         <div>
             <h1>Ready for laugth?</h1>

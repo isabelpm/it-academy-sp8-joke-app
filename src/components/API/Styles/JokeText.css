@@ -1,0 +1,52 @@
+.joke-card {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2C515 !important;
+    box-shadow: 5px 10px #CB303F !important;
+}
+
+.titular {
+    font-family: 'Yesteryear', cursive;
+    font-size: 10rem;
+    text-align: center;
+    height:50vh;
+    line-height: 20vh;
+    font-weight: 100;
+    color: #fcedd8;
+    text-shadow: 
+    5px 5px 0px #CB303F,
+    10px 10px 0px #E64238,
+    15px 15px 0px #D35716,
+    20px 20px 0px #ED9916;
+    
+}
+
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+    font-size: 1.8rem !important;
+    color:#CB303F;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+    font-size: 1.2rem;
+    color: #CB303F;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: #fcedd8 !important;
+    color: #CB303F !important;
+    border: 3px solid #CB303F !important;
+    border-radius: 0px !important;
+    box-shadow: 5px 10px !important;
+    font-weight: 700 !important;
+    
+}
+
+.btn:hover {
+    background-color: #CB303F !important;
+    color: #fff !important;
+}

@@ -1,4 +1,4 @@
-# PROYECTO REACT - _CHISTES_
+# PROYECTO REACT - _JOKE APP_
 
 _Crear una web interactiva de chistes. Donde consumiremos datos desde una API en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
 

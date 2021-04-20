@@ -1,29 +1,30 @@
+import React from "react"
+import "./App.css"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import React from 'react';
-import JokeText from "./components/API/JokeText"
-import Layout from './components/Layout'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Welcome from "./Welcome"
+import JokeApp from "./components/JokeApp"
+
 
 function App() {
 
-  // here will go the structure of the web
   return (
+    <Router>
 
-    <div>
-      <Layout>
-        <Row>
-            <Col md={6}>
-            <Row className="justify-content-md-center align-items-center mt-1">
-              {/* JOKE APP */}
-              <JokeText />
-            </Row>
-          </Col>
-        </Row>
-      </Layout>
+      <Switch>
 
-    </div>
-  );
+        <Route path="/" exact>
+          <Welcome/>
+        </Route>
+
+        <Route path="/jokes">
+          <JokeApp />
+        </Route>
+
+      </Switch>
+
+    </Router>
+  )
 }
 
-export default App;
+export default App

@@ -1,52 +1,53 @@
 .joke-card {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F2C515 !important;
-    box-shadow: 5px 10px #CB303F !important;
-}
-
-.titular {
-    font-family: 'Yesteryear', cursive;
-    font-size: 10rem;
-    text-align: center;
-    height:50vh;
-    line-height: 20vh;
-    font-weight: 100;
-    color: #fcedd8;
-    text-shadow: 
-    5px 5px 0px #CB303F,
-    10px 10px 0px #E64238,
-    15px 15px 0px #D35716,
-    20px 20px 0px #ED9916;
-    
+    font-family: 'Righteous',cursive;
+    background-color: rgb(249, 220, 48, 1) !important;
+     box-shadow: 
+     -10px 10px rgb(120, 120, 191),
+     -20px 20px violet !important;
+     border: 3px solid rgb(120, 120, 191);
 }
 
 
 .title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800 !important;
-    font-size: 1.8rem !important;
-    color:#CB303F;
+    font-family: 'Righteous',     cursive;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    color: violet;
+    text-shadow:-2px 2px #3f4291;
+}
+
+.subText {
+    font-family: 'Righteous', cursive;
+    background-color:violet;
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    color: rgb(249, 220, 48, 1);
+    /* text-shadow:-2px 2px violet; */
 }
 
 .text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400 !important;
+    font-family: 'Roboto',
+    cursive;
+    font-weight: 500 !important;
     font-size: 1.2rem;
-    color: #CB303F;
+    color: #3f4291;
 }
 
 .btn {
     text-transform: uppercase;
-    background-color: #fcedd8 !important;
-    color: #CB303F !important;
-    border: 3px solid #CB303F !important;
-    border-radius: 0px !important;
-    box-shadow: 5px 10px !important;
     font-weight: 700 !important;
+    background-color: #ffff !important;
+    color: rgb(120, 120, 191) !important;
+    border: 3px solid rgb(120, 120, 191) !important;
+    border-radius: 0px !important;
+    box-shadow: 
+    -5px 5px rgb(120, 120, 191);
     
 }
 
 .btn:hover {
-    background-color: #CB303F !important;
+    background-color: violet !important;
+    border: 3px solid violet !important;
+    box-shadow: -5px 5px #fff;
     color: #fff !important;
 }

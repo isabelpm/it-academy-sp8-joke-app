@@ -22,11 +22,11 @@ function JokeText() {
     return (
 
         <div>
-            <div className="titular mt-5 ml-5 text-center">Comedian Club</div>
-            <Card className="joke-card  ml-5 mt-5 text-center">
+            <Card className="joke-card  ml-5 m-5 text-center">
                 <Card.Body >
-                    <Card.Title className="title">READY FOR LAUGTH?</Card.Title>
-                    <Card.Text className="text">{joke}</Card.Text>
+                    <Card.Title className="title">READY TO LAUGH?</Card.Title>
+                    <Card.Text className="subText">You will find the best selection of jokes</Card.Text>
+                    <Card.Text className="text m-5">{joke}</Card.Text>
                     <Button className="btn w-50" onClick={() => getJoke()}>joke</Button>
                 </Card.Body>
 

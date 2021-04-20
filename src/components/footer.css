@@ -2,7 +2,7 @@
     margin: 0;
     padding: 50px;
     background-color: rgb(249, 220, 48, 1);
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive,sans-serif;
     font-size: 0.90rem;
     text-align: center;
     line-height: 6vh;

@@ -1,9 +1,12 @@
-# PROYECTO REACT - _Comedy Club & Weather APP_
+# Comedy Club & Weather APP
 
 ![mockupComedy](https://user-images.githubusercontent.com/67895734/115381382-cd54f300-a1d3-11eb-8372-396b797e0d47.jpg)
 
-_Crear una web interactiva con pantalla de bienvenida. Donde consumiremos datos desde dos API diferentes en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
+_Crear una web interactiva con pantalla de bienvenida. Consumir datos desde dos API diferentes en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
 
+## [codesandbox]() ⌨️
+
+## [Web]() 💻
 
 ## Empezamos 🚀
 

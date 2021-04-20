@@ -1,6 +1,12 @@
-# PROYECTO REACT - _CHISTES_
+# Comedy Club & Weather APP
 
-_Crear una web interactiva de chistes. Donde consumiremos datos desde una API en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
+![mockupComedy](https://user-images.githubusercontent.com/67895734/115381382-cd54f300-a1d3-11eb-8372-396b797e0d47.jpg)
+
+_Crear una web interactiva con pantalla de bienvenida. Consumir datos desde dos API diferentes en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
+
+## [codesandbox]() ⌨️
+
+## [Web]() 💻
 
 ## Empezamos 🚀
 
@@ -11,7 +17,8 @@ _A continuación tienes una **visualización final** de la website pero si lo de
 
 Debemos tener instalado:
 
-* 
+* [Node.js](https://nodejs.org/en/download/)
+* NPM (viene instalado con las versiones más recientes de Node)
 
 Tener instalado un editor de código:
 
@@ -34,12 +41,11 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 $ npm start
 ```
 
-## Caracteristicas 🔧
+* Esto iniciará el servidor de token local y ejecutará la aplicación en el modo de desarrollo.
 
-1. Instalar React a partir de la **plantilla** ```npx create-react-app nombre del proyecto```
-2. Creación de **componente estático**_(branch level1)_
-3. Añadir **interactividad**_(branch level1 )_
-4. Maquetar el proyecto _(branch level2)_
+```
+Abrir http://localhost:3000 para visualizar la aplicación en el navegador.
+```
 
 
 ## Herramientas utilitzadas 🛠️

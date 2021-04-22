@@ -29,9 +29,7 @@ function JokeText() {
                     <Card.Text className="text m-5">{joke}</Card.Text>
                     <Button className="btn w-50" onClick={() => getJoke()}>joke</Button>
                 </Card.Body>
-
             </Card>
-
 
         </div>
     );

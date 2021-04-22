@@ -8,11 +8,14 @@ import { Container, Row, Col } from "react-bootstrap"
 
 function JokeApp() {
     return (
-        <Container fluid className="app-body justify-content-center align-items-center p-0">
+        <Container fluid className="app-body">
+            <Row>
             {/* HEADER */}
             <Header />
-            {/* BODY */}
-            <Row className="justify-content-center align-items-center">
+            </Row>
+
+            <Row className="justify-content-center align-items-center p-2">
+                {/* BODY */}
                 <Col md={7} className="justify-content-center" >
                     <Row className="justify-content-center p-1">
                         <Col xs={12} md lg={12}>
@@ -25,9 +28,14 @@ function JokeApp() {
                         </Col>
                     </Row>
                 </Col>
+
+            </Row>
+
+            <Row>
                 {/* FOOTER */}
                 <Footer />
             </Row>
+           
         </Container >
     )
 }

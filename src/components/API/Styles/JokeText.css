@@ -1,15 +1,19 @@
 .joke-card {
-    font-family: 'Righteous',cursive;
+    font-family: 'Righteous', cursive, sans-serif;
     background-color: rgb(249, 220, 48, 1) !important;
-     box-shadow: 
-     -10px 10px rgb(120, 120, 191),
-     -20px 20px violet !important;
-     border: 3px solid rgb(120, 120, 191);
+    height: fit-content;
+    box-shadow: 
+    -10px 10px rgb(120, 120, 191),
+    -20px 20px violet !important;
+    border: 3px solid rgb(120, 120, 191);
+    
 }
 
 
 .title {
-    font-family: 'Righteous',     cursive;
+    font-family: 'Righteous',
+    cursive,
+    sans-serif;
     font-weight: 600 !important;
     font-size: 2rem !important;
     color: violet;
@@ -17,7 +21,9 @@
 }
 
 .subText {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous',
+    cursive,
+    sans-serif;
     background-color:violet;
     font-weight: 400 !important;
     font-size: 1.5rem !important;
@@ -27,10 +33,11 @@
 
 .text {
     font-family: 'Roboto',
-    cursive;
+    cursive, sans-serif;
     font-weight: 500 !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #3f4291;
+    height: fit-content;
 }
 
 .btn {

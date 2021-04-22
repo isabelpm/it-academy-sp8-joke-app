@@ -4,9 +4,9 @@
 
 _Crear una web interactiva con pantalla de bienvenida. Consumir datos desde dos API diferentes en React, aplicar conceptos de asincronía, renderizado condicional y definir y usar rutas en el proyecto._
 
-## [codesandbox]() ⌨️
+## [codesandbox](https://codesandbox.io/s/joke-app-cf9rz) ⌨️
 
-## [Web](https://v53cd.csb.app/) 💻
+## [Web](https://cf9rz.csb.app/) 💻
 
 ## Empezamos 🚀
 

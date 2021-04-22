@@ -16,7 +16,7 @@ function Weather() {
     useEffect(() => {
         const fetchData = async () => {
             const result = await
-                axios.get('http://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Barcelona&aqi=no', {
+                axios.get('https://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Barcelona&aqi=no', {
                     headers: {
                         'Accept': 'application/json'
                     }
@@ -40,7 +40,7 @@ function Weather() {
     useEffect(() => {
         const fetchData = async () => {
             const result = await
-                axios.get('http://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Girona&aqi=no', {
+                axios.get('https://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Girona&aqi=no', {
                     headers: {
                         'Accept': 'application/json'
                     }
@@ -64,7 +64,7 @@ function Weather() {
     useEffect(() => {
         const fetchData = async () => {
             const result = await
-                axios.get('http://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Tarragona&aqi=no', {
+                axios.get('https://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Tarragona&aqi=no', {
                     headers: {
                         'Accept': 'application/json'
                     }
@@ -88,7 +88,7 @@ function Weather() {
     useEffect(() => {
         const fetchData = async () => {
             const result = await
-                axios.get('http://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Lleida&aqi=no', {
+                axios.get('https://api.weatherapi.com/v1/current.json?key=e3c4a31ebc6447ef8c0115758211003&q=Lleida&aqi=no', {
                     headers: {
                         'Accept': 'application/json'
                     }

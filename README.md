@@ -48,7 +48,7 @@ Abrir http://localhost:3000 para visualizar la aplicación en el navegador.
 ```
 
 
-## Herramientas utilitzadas 🛠️
+## Herramientas utilizadas 🛠️
 
 * React Js
 

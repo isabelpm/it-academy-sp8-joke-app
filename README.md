@@ -56,5 +56,3 @@ Abrir http://localhost:3000 para visualizar la aplicación en el navegador.
 ## Autora ✒️
 
 [isabelpm](https://github.com/isabelpm)
-
-

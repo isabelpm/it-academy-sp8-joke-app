@@ -1,0 +1,18 @@
+.App-footer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    background-color: rgb(249, 220, 48, 1);
+    font-family: 'Righteous', cursive, sans-serif;
+    font-size: 0.9rem;
+    line-height: 5vh;
+    font-weight: 200;
+    color: #3f4291;
+    list-style: none;
+
+}
+
+li{
+    text-align: center;
+}

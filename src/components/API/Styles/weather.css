@@ -1,0 +1,51 @@
+.weather {
+    font-family: 'Righteous', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+
+}
+
+.titleWeather{
+    font-family: 'Righteous', cursive;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    color: violet;
+    /* text-shadow:-2px 2px #3f4291; */
+    text-align: center;
+    background-color: rgb(249, 220, 48, 1);
+
+}
+
+
+.weather-text {
+    font-size: 1rem !important;
+    color: white;
+}
+
+.weather-temp {
+    font-size: 2rem !important;
+    color: rgb(249, 220, 48, 1);
+}
+.weather-temp:hover{
+    color: rgb(120, 120, 191);
+
+}
+
+/* Outline */
+.card-city{
+    background-color: rgb(120, 120, 191);
+    box-shadow: 
+    -5px 5px rgb(249, 220, 48, 1),
+    -10px 10px violet !important;
+    border: 3px solid rgb(120, 120, 191);
+}
+
+/* Hover */
+.card-city:hover {
+    background-color: violet;
+    border: 3px solid violet;
+}
+
+

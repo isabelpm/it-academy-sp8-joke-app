@@ -1,0 +1,60 @@
+.joke-card {
+    font-family: 'Righteous', cursive, sans-serif;
+    background-color: rgb(249, 220, 48, 1) !important;
+    height: fit-content;
+    box-shadow: 
+    -10px 10px rgb(120, 120, 191),
+    -20px 20px violet !important;
+    border: 3px solid rgb(120, 120, 191);
+    
+}
+
+
+.title {
+    font-family: 'Righteous',
+    cursive,
+    sans-serif;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    color: violet;
+    text-shadow:-2px 2px #3f4291;
+}
+
+.subText {
+    font-family: 'Righteous',
+    cursive,
+    sans-serif;
+    background-color:violet;
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    color: rgb(249, 220, 48, 1);
+    /* text-shadow:-2px 2px violet; */
+}
+
+.text {
+    font-family: 'Roboto',
+    cursive, sans-serif;
+    font-weight: 500 !important;
+    font-size: 1rem;
+    color: #3f4291;
+    height: fit-content;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    background-color: #ffff !important;
+    color: rgb(120, 120, 191) !important;
+    border: 3px solid rgb(120, 120, 191) !important;
+    border-radius: 0px !important;
+    box-shadow: 
+    -5px 5px rgb(120, 120, 191);
+    
+}
+
+.btn:hover {
+    background-color: violet !important;
+    border: 3px solid violet !important;
+    box-shadow: -5px 5px #fff;
+    color: #fff !important;
+}
